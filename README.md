@@ -72,3 +72,5 @@ $model_viewer .= '</div>';
                     alt="3D model of Tester" auto-rotate camera-controls ar
                     style="width: 100%; height: 100%;"></model-viewer></div>
 ``` 
+## Differences in code
+You can check out the differences in the code in: [codeBlocks.jpg](codeBlocks.jpg)
