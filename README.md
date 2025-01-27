@@ -66,6 +66,7 @@ $model_viewer .= '</div>';
 <div class="nv-single-product-top">
     <div class="woocommerce-product-gallery--with-images images woocommerce-product-gallery woocommerce-product-gallery--columns-4"
         data-columns="4" style="opacity: 0; transition: opacity .25s ease-in-out;">
+        <!--Below here -->
         <div class="woocommerce-product-gallery__wrapper">
             <div data-thumb="http://10.0.0.219/wp-content/plugins/test-add-to-dom-plugin/3d-model-thumbnail.png"
                 data-thumb-alt="3D Model"
