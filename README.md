@@ -8,6 +8,7 @@
 <div class="nv-single-product-top">
     <div class="woocommerce-product-gallery--with-images images woocommerce-product-gallery woocommerce-product-gallery--columns-4"
         data-columns="4" style="opacity: 0; transition: opacity .25s ease-in-out;">
+        <!--Below here -->
         <div class="woocommerce-product-gallery__wrapper">
             <div data-thumb="http://10.0.0.219/wp-content/uploads/2025/01/chair-100x100.webp" data-thumb-alt="fgdfg"
                 data-thumb-srcset="http://10.0.0.219/wp-content/uploads/2025/01/chair-100x100.webp 100w, http://10.0.0.219/wp-content/uploads/2025/01/chair-150x150.webp 150w, http://10.0.0.219/wp-content/uploads/2025/01/chair.webp 275w"
@@ -19,12 +20,14 @@
                         data-large_image_width="275" data-large_image_height="271" decoding="async" fetchpriority="high"
                         srcset="http://10.0.0.219/wp-content/uploads/2025/01/chair.webp 275w, http://10.0.0.219/wp-content/uploads/2025/01/chair-100x100.webp 100w"
                         sizes="(max-width: 275px) 100vw, 275px" /></a></div>
+                        
 ```
 ### Html (plugin not working correctly)
 ```html
 <div class="nv-single-product-top">
     <div class="woocommerce-product-gallery--with-images images woocommerce-product-gallery woocommerce-product-gallery--columns-4"
         data-columns="4" style="opacity: 0; transition: opacity .25s ease-in-out;">
+        <!--Below here -->
         <div class="woocommerce-product-gallery__wrapper">
             <div class="polymuse-model-viewer woocommerce-product-gallery__image" data-gallery-item="3d-model">
                 <model-viewer
@@ -33,6 +36,7 @@
                     style="width: 100%; height: 100%;"></model-viewer></div>
             <li><img src="http://10.0.0.219/wp-content/plugins/polymuse-woocommerce/3d-model-thumbnail.png"
                     alt="3D Model Thumbnail" class="model-thumbnail" data-gallery-item="3d-model" /></li>
+        <!--Above here -->
             <div data-thumb="http://10.0.0.219/wp-content/uploads/2025/01/chair-100x100.webp" data-thumb-alt="fgdfg"
                 data-thumb-srcset="http://10.0.0.219/wp-content/uploads/2025/01/chair-100x100.webp 100w, http://10.0.0.219/wp-content/uploads/2025/01/chair-150x150.webp 150w, http://10.0.0.219/wp-content/uploads/2025/01/chair.webp 275w"
                 data-thumb-sizes="(max-width: 100px) 100vw, 100px" class="woocommerce-product-gallery__image"><a
