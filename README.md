@@ -49,7 +49,7 @@
                         sizes="(max-width: 275px) 100vw, 275px" /></a></div>
 ```
 As you can see the code is structured very differently. 
-4. Change how we are structuring the html being inserted into the product page.
+4. Change how we are structuring the html being inserted into the product page see [codeBlocks.jpg](codeBlocks.jpg).
 ```php
 $model_viewer = '<div data-thumb="' . esc_url($model_thumbnail_url) . '" ';
 $model_viewer .= 'data-thumb-alt="3D Model" ';
@@ -60,7 +60,7 @@ $model_viewer .= '<model-viewer src="' . esc_url($model_url) . '" alt="3D model 
 $model_viewer .= '</div>';
 ```
 >NOTE
->In the above step I left out the parent a element to allow for proper camera control.
+>In the above step I left out the parent "a" element to allow for proper camera control.
 ### Final outputted Html(plugin working correctly)
 ```html
 <div class="nv-single-product-top">
